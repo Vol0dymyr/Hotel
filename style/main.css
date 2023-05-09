@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #D9D9D9;
+    background: rgb(13, 89, 156);
+    mix-blend-mode: darken;
+    opacity: 0.4; */
+    background-image: linear-gradient(to right,
+            rgba(13, 89, 156, 0.4),
+            rgba(13, 89, 156, 0.4)), url(../image/unsplash_nRUp8NXmh4g.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header_logo {
+    margin-top: 35px;
+    margin-bottom: 227px;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #F0F0F0;
+    margin-bottom: 75px;
+}
+
+.header h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F0F0F0;
+    margin-bottom: 30px;
+}
+
+.header_btn {
+    width: 206px;
+    height: 57px;
+    background: #FF9728;
+    border-radius: 84px;
+    border: none;
+    padding: 16px 40px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 175px;
+    cursor: pointer;
+}
+
+/* Section */
+
+.hotel_position {
+    background: #DEF0FF;
+}
+
+.container {
+    width: 745px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #0F4C92;
+    opacity: 0.77;
+    margin-bottom: 40px;
+}
+
+.container p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #0F4C92;
+}
