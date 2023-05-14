@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./style/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="up" class="header">
       <a href="/" class="header_logo"
         ><img
           src="./image/icon/Logo big white 1.svg"
@@ -25,7 +25,7 @@
       /></a>
       <h1>Готель біля моря</h1>
       <h4>Сучасний готель з котеджами і власним пляжем</h4>
-      <button class="header_btn">Переглянути</button>
+      <button class="header_btn btn">Переглянути</button>
     </header>
 
     <main>
@@ -147,15 +147,43 @@
               всі поля форми та надішліть заявку. Обов’язково вкажіть ваш
               телефон та адресу електронної пошти для зворотного зв’язку.
             </p>
-            <button class="reserve_btn">Заповнити форму</button>
+            <button class="reserve_btn btn">Заповнити форму</button>
           </div>
         </div>
       </section>
 
-      <section></section>
+      <section class="map_section">
+        <h2>Відпочинок біля моря в міжсезоння</h2>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.181158676244!2d30.738966702187987!3d46.483972361982836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631981d2666cd%3A0xc86b57592e698308!2z0JDQvNGB0YLQtdGA0LTQsNC8INCz0L7RgtC10LvRjCDRgtCwINGA0LXRgdGC0L7RgNCw0L0!5e0!3m2!1suk!2sua!4v1683960213012!5m2!1suk!2sua"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <a href="/"><img src="./image/icon/Logo big white 1.svg" alt="logo" /></a>
+
+      <p>Чудове місце для відпочинку і натхнення</p>
+      <div class="footer_text">
+        <p>
+          Адреса: Одеська обл. смт. Початкова-іт, вулиця Початківців фронтенду,
+          25
+        </p>
+        <p>Номер телефону: <a href="tel:+380693696969">+38069 369 69 69</a></p>
+        <p>
+          Email: <a href="mailto:support@hotel.com.ua">support@hotel.com.ua</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="button_up">
+      <a href="#up"><img src="./image/icon/icons8-up-80.png" alt="up" /></a>
+    </div>
 
     <div class="overlay">
       <form class="callback-form">
@@ -169,8 +197,9 @@
           <input type="tel" placeholder="Номер телефону" />
         </div>
 
-        <input type="submit" value="Відправити" class="callback-form__btn" />
+        <button type="submit" class="callback-form__btn">Відправити</button>
       </form>
     </div>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>

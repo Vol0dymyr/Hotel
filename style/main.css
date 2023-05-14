@@ -205,6 +205,61 @@ h3 {
     margin-bottom: 30px;
 }
 
+/* map */
+
+.map_section h2 {
+    color: #0F4C92;
+    text-align: center;
+    margin: 75px 0;
+}
+
+.map {
+    width: 100%;
+    height: 355px;
+    filter: grayscale(100%);
+}
+
+.map:hover,
+.map:focus {
+    filter: grayscale(0%);
+    transition: 0.4s;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #0B83BE;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 48px;
+}
+
+.footer_text {
+    margin-top: 90px;
+    padding-bottom: 112px;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.button_up a {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.button_up:hover a,
+.button_up:focus a {
+    opacity: 1;
+}
+
 /* Form */
 
 .overlay {
@@ -214,6 +269,7 @@ h3 {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
+    /* display: flex; */
     display: none;
     justify-content: center;
     align-items: center;
@@ -252,7 +308,7 @@ h3 {
     color: #B2E3FF;
 }
 
-.callback-form .callback-form__btn {
+.callback-form__btn {
     background: #FF9728;
     border: none;
     padding: 16px 40px;
